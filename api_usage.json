@@ -1,0 +1,20 @@
+{
+    "Yaxuan": {
+        "gemini-3-pro-preview": {
+            "input_tokens": 1414,
+            "output_tokens": 552,
+            "thinking_tokens": 245,
+            "total_tokens": 2211,
+            "total_cost_usd": 0.012392,
+            "last_updated": "2025-12-11 12:14:07"
+        },
+        "gemini-2.5-pro": {
+            "input_tokens": 2895,
+            "output_tokens": 228,
+            "thinking_tokens": 480,
+            "total_tokens": 3603,
+            "total_cost_usd": 0.010699,
+            "last_updated": "2025-12-11 12:12:17"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "user": "Yaxuan",
+    "model_name": "gemini-3-pro-preview",
+    "task": "default_task",
+    "video": "demo.mp4",
+    "fps_setting": "1.0",
+    "resolution_setting": "Low",
+    "thinking_level": "Low",
+    "prompt": "describe the video",
+    "timestamp": "20251211_114536",
+    "gemini_file_uri": "https://generativelanguage.googleapis.com/v1beta/files/dsylogjxabhf",
+    "token_usage": {
+        "input_tokens": 708,
+        "output_tokens": 164,
+        "thinking_tokens": 128,
+        "total_tokens": 1000
+    },
+    "estimated_cost_usd": 0.00492
+}

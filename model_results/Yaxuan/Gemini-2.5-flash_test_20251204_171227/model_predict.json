@@ -1,0 +1,36 @@
+{
+    "description": "A medium shot captures an art class in a bright room with large windows. A woman, likely an instructor, dressed in a blue jumpsuit, stands next to a young African American man seated at an easel. He is painting an abstract piece with an orange and purple motif on a blue background. The instructor leans in, pointing to his canvas and offering guidance. She then moves away to interact with another student who is partially visible at a separate easel. The young man continues to paint diligently, focused on his artwork.",
+    "segments": [
+        {
+            "start": "00:00",
+            "end": "00:05",
+            "label": "The instructor observes and gives feedback to the young male student who is painting on an easel."
+        },
+        {
+            "start": "00:05",
+            "end": "00:10",
+            "label": "The instructor moves away from the student, who continues to paint, and walks towards another student in the background."
+        }
+    ],
+    "camera_angle": "medium shot",
+    "dominant_colors": [
+        "#8B8B8B",
+        "#A8896C",
+        "#C8C8C8",
+        "#4B5E91",
+        "#2F3B52"
+    ],
+    "tags": [
+        "art class",
+        "painting",
+        "art instructor",
+        "student",
+        "easel",
+        "canvas",
+        "art studio",
+        "creative",
+        "learning",
+        "guidance",
+        "african american"
+    ]
+}

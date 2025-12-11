@@ -1,0 +1,16 @@
+{
+    "user": "Yaxuan",
+    "model_name": "Gemini-2.5-flash",
+    "task": "test",
+    "video": "demo.mp4",
+    "fps_setting": "1.0",
+    "prompt": "describe this video, output should be JSON format",
+    "timestamp": "20251204_171227",
+    "gemini_file_uri": "https://generativelanguage.googleapis.com/v1beta/files/cl98nyitxa1d",
+    "token_usage": {
+        "input_tokens": 2903,
+        "output_tokens": 379,
+        "thinking_tokens": 140,
+        "total_tokens": 3422
+    }
+}
