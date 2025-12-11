@@ -10,11 +10,10 @@ __pycache__/
 
 # datasets
 dataset/
-!demo.mp4
 
 # temp files
 temp_clips/
-!.gitkeep
+
 
 # MacOS system files
 .DS_Store
