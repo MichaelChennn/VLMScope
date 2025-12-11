@@ -139,7 +139,7 @@ def render_tab2(username):
                 )
 
                 # Run Inference
-                def validate_and_run(u, k, t, m, v, res, think, *prompts):
+                def validate_and_run(u, t, m, v, res, think, *prompts):
                     """
                     Checks if any prompt textbox is empty before calling the backend.
                     """
@@ -166,11 +166,12 @@ def render_tab2(username):
                         
                         gr.Warning(f"Missing {len(missing_fields)} prompt sections!")
                         
-                        return error_msg
+                        yield error_msg
+                        return
                     
 
-                    return evaluation.run_gemini_inference(
-                        u, k, t, m, v, list(prompts), res, think
+                    yield from evaluation.run_gemini_inference(
+                        u, t, m, v, list(prompts), res, think
                     )
                     
                 ev_btn.click(
