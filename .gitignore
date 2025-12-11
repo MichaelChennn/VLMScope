@@ -9,7 +9,8 @@ __pycache__/
 .gradios/
 
 # datasets
-dataset/
+dataset/*
+!demo.mp4
 
 # temp files
 temp_clips/
