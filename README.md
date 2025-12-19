@@ -27,6 +27,7 @@ python app.py
 ```
 
 ## How to use the application
+Please refer to the [instruction.md](instruction.md) file for a detailed guide on how to use the application.
 
 ## File Structure
 `dataset/`
