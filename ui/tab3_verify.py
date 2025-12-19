@@ -1,14 +1,6 @@
 import gradio as gr
 import utils
 from tabs import verification
-from app_decaptured import refresh_video_list
-
-def refresh_json_list():
-    """Refreshes the JSON result list from the model_results folder."""
-    files = utils.get_model_result_files()
-    if not files:
-        return gr.update(choices=[], value=None)
-    return gr.update(choices=files, value=files[0] if files else None)
 
 def render_tab3(username):
     with gr.TabItem("✅ Result Verification"):
@@ -91,8 +83,8 @@ def render_tab3(username):
                         )
 
                 # Wiring Events (Tab 3)
-                ver_refresh_vid.click(refresh_video_list, outputs=[ver_video])
-                ver_refresh_file.click(refresh_json_list, outputs=[ver_file])
+                ver_refresh_vid.click(utils.refresh_video_list, outputs=[ver_video])
+                ver_refresh_file.click(utils.refresh_json_list, outputs=[ver_file])
 
                 ver_load_btn.click(
                     verification.load_data,

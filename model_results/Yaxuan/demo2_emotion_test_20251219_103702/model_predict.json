@@ -1,0 +1,23 @@
+[
+    {
+        "start_time": "00:00",
+        "end_time": "00:02",
+        "emotion": "sad",
+        "confidence": 0.85,
+        "description": "The woman stares at her phone with a furrowed brow and a downward-turned mouth, appearing upset or disappointed."
+    },
+    {
+        "start_time": "00:02",
+        "end_time": "00:04",
+        "emotion": "supervise",
+        "confidence": 0.9,
+        "description": "Her expression suddenly shifts to wide-eyed shock as she gasps and covers her mouth with her hand."
+    },
+    {
+        "start_time": "00:04",
+        "end_time": "00:08",
+        "emotion": "happy",
+        "confidence": 0.95,
+        "description": "Her shock quickly transforms into delight as she breaks into a wide smile and laughs while looking at the screen."
+    }
+]

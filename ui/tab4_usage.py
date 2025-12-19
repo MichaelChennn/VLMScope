@@ -2,12 +2,6 @@ import gradio as gr
 import utils
 import config
 
-def refresh_usage_data():
-    data = utils.get_usage_summary()
-    if not data:
-        return gr.update(value=[])
-    return gr.update(value=data)
-
 def render_tab4(demo):
     with gr.TabItem("💰 Usage & Cost"):
                 gr.Markdown("### API Token Usage & Cost Estimator")
@@ -45,6 +39,6 @@ def render_tab4(demo):
                 )
 
                 # Auto-load data when app starts (optional, or just rely on click)
-                demo.load(refresh_usage_data, outputs=usage_table)
+                demo.load(utils.refresh_usage_data, outputs=usage_table)
 
-                usage_refresh_btn.click(refresh_usage_data, outputs=[usage_table])
+                usage_refresh_btn.click(utils.refresh_usage_data, outputs=[usage_table])

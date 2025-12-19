@@ -6,20 +6,6 @@ from ui import tab2_eval
 from ui import tab3_verify
 from ui import tab4_usage
 
-# ==============================================================================
-#  UI HELPER FUNCTIONS
-# ==============================================================================
-def refresh_video_list():
-    """Refreshes the video list from the dataset folder."""
-    files = utils.get_video_files()
-    if not files:
-        return gr.update(choices=[], value=None, label="⚠️ No videos in 'dataset'")
-    return gr.update(
-        choices=files, value=files[0] if files else None, label="Select Video"
-    )
-    
-    
-
 # === Login Logic ===
 def login(username):
     """

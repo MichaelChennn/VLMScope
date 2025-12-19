@@ -1,0 +1,16 @@
+[
+    {
+        "start_time": "00:00:00",
+        "end_time": "00:00:02",
+        "behavior": "sad",
+        "confidence": 0.85,
+        "description": "The woman looks at her phone with a frown and a sad, concerned expression."
+    },
+    {
+        "start_time": "00:00:03",
+        "end_time": "00:00:08",
+        "behavior": "happy",
+        "confidence": 0.95,
+        "description": "The woman's expression changes to joy as she smiles and laughs while looking at the phone."
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "user": "Yaxuan",
+    "model_name": "gemini-3-pro-preview",
+    "task": "demo2_emotion_detection_test",
+    "video": "demo2.mp4",
+    "fps_setting": "1.0",
+    "resolution_setting": "Medium",
+    "thinking_level": "High",
+    "prompt": "Background Introduction:\nA woman is sitting on the sofa and watching her phone\n\nTask Description:\nDetect the woman's emotion\n\nLabel Identify:\nsad, confused, supervise, happy\n\nCondition Evaluation:\nNone\n\nEvidence:\nNone\n\nOutput Example:\n{\n'start_time': '00:00:00',\n'end_time': '00:00:02',\n'behavior': 'happy',\n'confidence': 0.8\n'description': 'Woman feels happy'\n}",
+    "timestamp": "20251219_120031",
+    "gemini_file_uri": "https://generativelanguage.googleapis.com/v1beta/files/vutsr10qeq39",
+    "token_usage": {
+        "input_tokens": 826,
+        "output_tokens": 168,
+        "thinking_tokens": 5781,
+        "total_tokens": 6775
+    },
+    "estimated_cost_usd": 0.07304
+}

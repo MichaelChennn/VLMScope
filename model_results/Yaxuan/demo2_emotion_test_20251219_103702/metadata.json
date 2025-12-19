@@ -1,0 +1,19 @@
+{
+    "user": "Yaxuan",
+    "model_name": "gemini-3-pro-preview",
+    "task": "demo2_emotion_test",
+    "video": "demo2.mp4",
+    "fps_setting": "1.0",
+    "resolution_setting": "Low",
+    "thinking_level": "Low",
+    "prompt": "Background Introduction:\nOne woman sit on the sofa watching her phone.\n\nTask Description:\nContinuously track her emotion\n\nLabel Identify:\nhappy, sad, supervise\n\nCondition Evaluation:\nNone\n\nEvidence:\nKeep it 1-2 sentences maximum.\n\nOutput Example:\n{\n'start_time': '00:00:00',\n'end_time': '00:00:01',\n'emotion': 'confused',\n'confidence': 0.9,\n'description': 'woman watch her phone confused'\n}",
+    "timestamp": "20251219_103702",
+    "gemini_file_uri": "https://generativelanguage.googleapis.com/v1beta/files/b9iqi64mtltl",
+    "token_usage": {
+        "input_tokens": 834,
+        "output_tokens": 239,
+        "thinking_tokens": 139,
+        "total_tokens": 1212
+    },
+    "estimated_cost_usd": 0.006204
+}

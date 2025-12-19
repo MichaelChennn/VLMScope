@@ -1,12 +1,8 @@
 import gradio as gr
 import utils
 from tabs import visualizer  
-from app_decaptured import refresh_video_list
 
 def render_tab1():
-    """
-    渲染 Tab 1: Input Visualizer 的所有 UI 和事件绑定
-    """
     with gr.TabItem("👁️ Input Visualizer"):
         with gr.Row():
             # ==========================
@@ -41,7 +37,7 @@ def render_tab1():
 
                     # --- Sub-tab: Qwen ---
                     with gr.TabItem("Qwen-VL"):
-                        qwen_fps = gr.Slider(0.1, 10.0, 0.5, step=0.1, label="FPS")
+                        qwen_fps = gr.Slider(0.1, 10.0, 0.5, step=0.5, label="FPS")
                         
                         with gr.Row():
                             qwen_min_w = gr.Number(160, label="Min Width")
@@ -69,7 +65,7 @@ def render_tab1():
         # ==========================
         
         # 1. Refresh Logic
-        viz_refresh.click(refresh_video_list, outputs=[viz_video])
+        viz_refresh.click(utils.refresh_video_list, outputs=[viz_video])
 
         # 2. Qwen Logic
         qwen_btn.click(
