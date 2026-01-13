@@ -1,11 +1,17 @@
 # Environment
 
 ## Prepare the environment
-
+- For Windows
 ```bash
 conda create -n vlmscope python=3.10 -y
 conda activate vlmscope
 pip install -r requirements.txt
+```
+- For Mac
+```bash
+conda create -n vlmscope python=3.10 -y
+conda activate vlmscope
+pip install -r requirements_mac.txt
 ```
 
 ## Add Your Google AI Studio API keys

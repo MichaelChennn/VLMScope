@@ -1,0 +1,9 @@
+qwen-vl-utils==0.0.14
+gradio
+imageio
+ffmpeg
+imageio_ffmpeg
+google
+google-genai
+python-dotenv
+decord2
